@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, world!</h1>
+    <form class="base-form">
+        <h2 class="main-header">Подписка</h2>
+        <label>
+          <span class="label-name">ИМЯ</span>
+          <input class="base-input" type="text" placeholder="Введите свое имя">
+        </label>
+        <label>
+          <span class="label-name">ЭЛЕКТРОННАЯ ПОЧТА</span>
+          <input class="base-input" type="email" placeholder="email">
+        </label>
+        
+        <button id="btn" class="base-btn" type="submit">Отправить</button> 
+    </form>
 </body>
 </html>
